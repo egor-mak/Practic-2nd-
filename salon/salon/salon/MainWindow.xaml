@@ -12,7 +12,8 @@
             <RowDefinition Height="200*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Background="#FFE1E4FF" Orientation="Horizontal">
-            <Image Source=".//Resourses/beauty_logo.png" Width="55"/>
+            <Image Source=".//Resourses/beauty_logo.png" Width="55"
+                   HorizontalAlignment="Left" Margin="10 0 0 0"/>
             <Button x:Name="btnBack"
                             Width="150" Height="30" FontSize="17"
                             Foreground="White" Background="#FFFF4A6D"
